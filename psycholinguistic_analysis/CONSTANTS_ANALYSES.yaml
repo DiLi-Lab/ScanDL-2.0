@@ -1,0 +1,2 @@
+path_to_seq2seq_data: "../generation_outputs/fixdur_module/"
+path_to_baseline_data: "../docs/baseline_outputs/"

@@ -1,0 +1,73 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "mask": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "sn_sp_repr": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "sn_input_ids": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "indices_pos_enc": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "sn_sp_fix_dur": {
+      "feature": {
+        "dtype": "float64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "sn_repr_len": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "words_for_mapping": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "mask_sn_padding": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "mask_transformer_att": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "sn_ids": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "reader_ids": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}
