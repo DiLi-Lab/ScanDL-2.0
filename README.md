@@ -37,7 +37,7 @@ CUDA_VISIBLE_DEVICES=0 python -m scandl_pkg.test
 When loading pre-trained ScanDL 2.0, the arguments are as follows:
 ```python
 class ScanDL2(
-    text_type: str = sentence,
+    text_type: str = 'sentence',
     bsz: Optional[int] = 2,
     save: Optional[str] = None,
     filename: Optional[str] = None,
@@ -245,7 +245,7 @@ CUDA_VISIBLE_DEVICES=0 bash run_train_complete_fixdur_module.sh
 	journal = {Proceedings of the ACM on Human-Computer Interaction},
 	month = may,
 	articleno = {5},
-	numpages = {21},
+	numpages = {30},
 	keywords = {neural networks, scanpath generation, eye movements, reading, diffusion models}
 }
 ```
