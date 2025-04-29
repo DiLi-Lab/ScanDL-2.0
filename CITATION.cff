@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "ScanDL 2.0: A Generative Model of Eye Movements in Reading Synthesizing Scanpaths and Fixation Durations"
+authors:
+  - family-names: Bolliger
+    given-names: Lena S.
+  - family-names: Reich
+    given-names: David R.
+  - family-names: Jäger
+    given-names: Lena A.
+date-released: 2025-05-01
+journal: "Proceedings of the ACM on Human-Computer Interaction"
+publisher: "Association for Computing Machinery"
+location: "New York, NY, USA"
+volume: "9"
+issue: "ETRA5"
+article-number: "5"
+numpages: "30"
+doi: "10.1145/3725830"
+url: "https://doi.org/10.1145/3725830"
+abstract: "Eye movements in reading have become a vital tool for investigating the cognitive mechanisms involved in language processing. They are not only used within psycholinguistics but have also been leveraged within the field of NLP to improve the performance of language models on downstream tasks. However, the scarcity and limited generalizability of real eye-tracking data present challenges for data-driven approaches. In response, synthetic scanpaths have emerged as a promising alternative. Despite advances, however, existing machine learning-based methods, including the state-of-the-art ScanDL (Bolliger et al. 2023), fail to incorporate fixation durations into the generated scanpaths, which are crucial for a complete representation of reading behavior. We therefore propose a novel model, denoted ScanDL 2.0, which synthesizes both fixation locations and durations. It sets a new benchmark in generating human-like synthetic scanpaths, demonstrating superior performance across various evaluation settings. Furthermore, psycholinguistic analyses confirm its ability to emulate key phenomena in human reading. Our code as well as pre-trained model weights are available via https://github.com/DiLi-Lab/ScanDL-2.0."
+keywords:
+  - neural networks
+  - scanpath generation
+  - eye movements
+  - reading
+  - diffusion models
